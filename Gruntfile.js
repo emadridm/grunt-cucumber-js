@@ -11,8 +11,9 @@ module.exports = function (grunt) {
     cucumberjs: {
       files: 'features',
       options: {
-        steps: 'features/step_definitions',
-        format: 'pretty'
+        steps: 'features',
+        format: 'pretty',
+        coffee: true
       }
     }
   });

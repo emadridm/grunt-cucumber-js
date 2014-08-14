@@ -12,3 +12,8 @@ Feature: Testing
     Given I have the object '{"x": 1}'
     When I extend previus object with the object '{"y": 2}'
     Then I should have the object '{"x": 1, "y": 2}'
+
+  Scenario: An other undefiend
+    Given I have a undefined Scenario
+    When I set coffee option 
+    Then I see this on coffee
